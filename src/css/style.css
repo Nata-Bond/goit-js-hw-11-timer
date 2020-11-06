@@ -1,4 +1,28 @@
 body {
-  background-color: black;
-  color: wheat;
+  text-align: center;
+  background: #d8e6e3;
+  font-family: sans-serif;
+}
+
+.timer {
+  font-weight: 200;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  background: #aac9c2;
+  display: block;
+}
+
+.value {
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816a;
+  display: block;
+}
+
+.label .countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
 }
